@@ -59,6 +59,7 @@ background-color: rgba(0, 0, 0, 0.51);
 }
 .dup 
 {
+font-family: Hammersmith One;
 color: white;
 position: absolute;
 background: url(/img/7731a0804e2ede7cb96a2483cca8ccd7_w200%20.gif) no-repeat;
@@ -82,4 +83,5 @@ height: 15%;
 bottom: 0px;
 
 background-color: rgba(56, 65, 62, 0.78)
-}.rmenu {position: absolute;right: 10px;bottom: 10px
+}.rmenu {position: absolute;right: 10px;bottom: 10px}
+.ad {position: absolute;right: 10px;bottom: 40px;color: white;font-family: monospace;font-size: 15px}
