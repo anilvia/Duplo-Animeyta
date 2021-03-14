@@ -164,4 +164,13 @@ font-weight: 100;}
 .dsl 
 {    padding: 5px 5px 2px;
 }
-
+.green
+{
+position:relative;
+height: 10px;
+width: 10px;
+background-color: #12aa47;
+bottom:39px;
+left: 7px;
+border-radius: 10px;
+}
