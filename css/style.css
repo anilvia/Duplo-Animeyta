@@ -83,5 +83,5 @@ height: 15%;
 bottom: 0px;
 
 background-color: rgba(56, 65, 62, 0.78)
-}.rmenu {position: absolute;right: 10px;bottom: 10px}
-.ad {position: absolute;right: 10px;bottom: 40px;color: white;font-family: monospace;font-size: 15px}
+}.rmenu {position: absolute;right: 20px;bottom: 20px}
+.ad {position: absolute;right: 20px;bottom: 59px;color: white;font-family: monospace;font-size: 15px}
