@@ -98,7 +98,7 @@ justify-content: center;
 display: flex;
     flex-wrap: wrap;
 background-color: rgba(127, 255, 212, 0);
-top:45%;
+bottom: 150px;
 right: 20%;
 left: 20%;
 height: 16%;  
