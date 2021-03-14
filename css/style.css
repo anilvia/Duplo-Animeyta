@@ -1,0 +1,85 @@
+#cont 
+{
+width: 800%;
+height: 50%;
+display: flex;
+margin: 0 auto;
+position:absolute;
+font-size: 100px;
+bottom: 1000px;
+top: 30%;
+
+}
+body
+{
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+width: 100%;
+height: 100%;
+bottom: 0px;
+margin: 0 auto;
+}
+.LHeader{position: absolute;width: 30%;height:40%;background-color: rgba(109, 169, 222, 0);font-family: fantasy}
+.batH{position: absolute;top: 5%;left: 10px;font-size: 20px;appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(157, 42, 199, 0);
+  color: #fff;
+  padding: 8px 16px;}.batH:hover {appearance: none;border: 0;border-radius: 5px;background: rgba(157, 42, 199, 0.56);color: #fff;padding: 8px 16px;transition:all .2s linear;}
+.batD{position: absolute;top: 35%;left: 10px;font-size: 20px;appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(157, 42, 199, 0);
+  color: #fff;
+  padding: 8px 16px;}.batD:hover{appearance: none;border: 0;border-radius: 5px;background: rgba(157, 42, 199, 0.56);color: #fff;padding: 8px 16px;transition:all .2s linear;}
+.batR{position: absolute;top: 20%;left: 10px;font-size: 20px;appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(157, 42, 199, 0);
+  color: #fff;
+  padding: 8px 16px;}.batR:hover{appearance: none;border: 0;border-radius: 5px;background: rgba(157, 42, 199, 0.56);color: #fff;padding: 8px 16px;transition:all .2s linear;}
+.ofc 
+{
+position: fixed;
+width: 100%;
+height:100%;
+background: url(http://37.media.tumblr.com/034244f741ad75bd774965c7f9772879/tumblr_n6gqw4EGiW1tvub8wo2_1280.png) repeat;
+background-size:10%;
+left: 0px
+}
+.ofc_head
+{
+position: absolute;
+width: 100%;
+height: 100%;
+top:0px ;
+background-color: rgba(0, 0, 0, 0.51);
+}
+.dup 
+{
+color: white;
+position: absolute;
+background: url(/img/7731a0804e2ede7cb96a2483cca8ccd7_w200%20.gif) no-repeat;
+width: 300px;
+height: 50px;
+right: 20px;
+top: 10px;
+border: 3px solid;
+font-size: 40px;
+margin: 0 auto;
+text-align: center;
+background-size: 40%;
+background-position:left
+}
+.bottheader
+{
+position: absolute;
+right: 0px;
+width: 100%;
+height: 15%;
+bottom: 0px;
+
+background-color: rgba(56, 65, 62, 0.78)
+}.rmenu {position: absolute;right: 10px;bottom: 10px
