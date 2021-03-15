@@ -1,0 +1,177 @@
+#cont 
+{
+width: 800%;
+height: 50%;
+display: flex;
+margin: 0 auto;
+position:absolute;
+font-size: 100px;
+bottom: 1000px;
+top: 30%;
+
+}
+body
+{
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+width: 100%;
+height: 100%;
+bottom: 0px;
+margin: 0 auto;
+}
+.LHeader{position: absolute;width: 30%;height:40%;background-color: rgba(109, 169, 222, 0);font-family: fantasy}
+.batH{position: absolute;top: 5%;left: 10px;font-size: 20px;appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(157, 42, 199, 0);
+  color: #fff;
+  padding: 8px 16px;}.batH:hover {appearance: none;border: 0;border-radius: 5px;background: rgba(157, 42, 199, 0.56);color: #fff;padding: 8px 16px;transition:all .2s linear;}
+.batD{position: absolute;top: 50%;left: 10px;font-size: 20px;appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(157, 42, 199, 0);
+  color: #fff;
+  padding: 8px 16px;}.batD:hover{appearance: none;border: 0;border-radius: 5px;background: rgba(157, 42, 199, 0.56);color: #fff;padding: 8px 16px;transition:all .2s linear;}
+.batR{position: absolute;top: 20%;left: 10px;font-size: 20px;appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(157, 42, 199, 0);
+  color: #fff;
+  padding: 8px 16px;}.batR:hover{appearance: none;border: 0;border-radius: 5px;background: rgba(157, 42, 199, 0.56);color: #fff;padding: 8px 16px;transition:all .2s linear;}
+.batA{position: absolute;top: 35%;left: 10px;font-size: 20px;appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: rgba(157, 42, 199, 0);
+  color: #fff;
+    padding: 8px 16px;}.batA:hover{appearance: none;border: 0;border-radius: 5px;background: rgba(157, 42, 199, 0.56);color: #fff;padding: 8px 16px;transition:all .2s linear;}
+.ofc 
+{
+position: fixed;
+width: 100%;
+height:100%;
+background: url(http://37.media.tumblr.com/034244f741ad75bd774965c7f9772879/tumblr_n6gqw4EGiW1tvub8wo2_1280.png) repeat;
+background-size:10%;
+left: 0px
+}
+.ofc_head
+{
+position: absolute;
+width: 100%;
+height: 100%;
+top:0px ;
+background-color: rgba(0, 0, 0, 0.51);
+}
+.dup 
+{
+font-family:Oswald;
+color: white;
+position: absolute;
+background: url(https://media.discordapp.net/attachments/679296386944073729/820557389866074152/7731a0804e2ede7cb96a2483cca8ccd7_w200_.gif) no-repeat;
+width: 210px;
+height: 44px;
+right: 10px;
+top: 10px;
+border: 3px solid;
+font-size: 30px;
+margin:  auto;
+text-align: center;
+background-size: 40%;
+background-position:left;
+font-weight: 550;
+    text-transform: uppercase;
+    border: 3px solid;
+    padding: 5px 5px!important;
+    margin-right: 10px;
+    text-align: center!important;
+}
+
+
+.rmenu {position: absolute;right: 20px;bottom: 20px}
+.ad {position: absolute;right: 20px;bottom: 59px;color: white;font-family: Oswald;font-size: 16px}
+.stats{
+position: absolute;
+justify-content: center;
+    text-align: center;
+    padding-top: 125px;
+display: flex;
+    flex-wrap: wrap;
+background-color: rgba(127, 255, 212, 0);
+bottom: 150px;
+right: 20%;
+left: 20%;
+height: 16%;  
+font-size: 20px;
+    font-family: Oswald;
+
+  }
+
+.stats span {    
+    color: rgba(255,255,255,.8);
+    background-color: hsla(0, 0%, 96%, 0.22);
+    padding: 15px;
+    user-select: none;
+    display: inline-block;
+    margin: 5px;
+    min-width: 200px;
+
+} 
+.bottheader2
+{
+position: absolute;
+right: 0px;
+width: 100%;
+height: 100px;
+bottom: 0%;
+background-color: rgba(56, 65, 62, 0.62)
+}
+#main {
+    display: flex;
+    flex-flow: column;
+}
+
+.content {
+    max-width: 1406px;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    position: relative;
+}
+.main{position: absolute;
+top:10px;
+left: 200px;
+height: 1380px;
+width: 1000px;
+background-color: rgba(0, 0, 139, 0);
+color: white;
+font-family:Oswald;
+font-size: 13px;
+font-weight: 100;}
+::-webkit-scrollbar {
+    width: 0px;
+    height:0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffc84c;
+    height: 150px;
+}
+.dsl 
+{    padding: 5px 5px 2px;
+}
+.green
+{
+position:relative;
+height: 10px;
+width: 10px;
+background-color: #12aa47;
+bottom:39px;
+left: 7px;
+border-radius: 10px;
+}
+
+.lineL{
+}
+.ad2 {position: absolute;top:0px;left: 790px;}
+.rmenu2 {position: absolute;top:0px;left:600px;}
+a:hover {
+    color: #9e18be;
