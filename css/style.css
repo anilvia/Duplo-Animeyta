@@ -69,9 +69,9 @@ font-family:Oswald;
 color: white;
 position: absolute;
 background: url(https://media.discordapp.net/attachments/679296386944073729/820557389866074152/7731a0804e2ede7cb96a2483cca8ccd7_w200_.gif) no-repeat;
-width: 210px;
+width: 233px;
 height: 44px;
-right: 10px;
+right: 20px;
 top: 10px;
 border: 3px solid;
 font-size: 30px;
@@ -88,8 +88,8 @@ font-weight: 550;
 }
 
 
-.rmenu {position: absolute;right: 20px;bottom: 20px}
-.ad {position: absolute;right: 20px;bottom: 59px;color: white;font-family: Oswald;font-size: 16px}
+.rmenu {position: absolute;right: 20px;bottom: 20px;font-family: Oswald;font-size: 16px}
+.ad {position: absolute;right: 20px;bottom: 59px;color: white;font-family: Oswald;font-size: 16px;}
 .stats{
 position: absolute;
 justify-content: center;
@@ -123,7 +123,7 @@ position: absolute;
 right: 0px;
 width: 100%;
 height: 100px;
-bottom: 0%;
+bottom: 0px;
 background-color: rgba(56, 65, 62, 0.62)
 }
 #main {
@@ -152,7 +152,7 @@ font-weight: 100;}
     height:0px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #ffc84c;
+    background: #a627ea;
     height: 150px;
 }
 .dsl 
@@ -174,4 +174,9 @@ border-radius: 10px;
 .ad2 {position: absolute;top:0px;left: 790px;}
 .rmenu2 {position: absolute;top:0px;left:600px;}
 a:hover {
-    color: #9e18be;
+    color: #cb7fdd;}
+.widget {position:absolute;background-color:rgba(0, 255, 255, 0);width: 300px;height: 90%;right: -20px;top:80px}
+.SDL {
+min-height:657px;
+min-width:1400px;
+}
