@@ -171,10 +171,10 @@ border-radius: 10px;
 
 .lineL{
 }
-.ad2 {position: absolute;top:0px;left: 790px;}
-.rmenu2 {position: absolute;top:0px;left:600px;}
+.ad2 {position: absolute;top:0px;left: 100px;}
+.rmenu2 {position: absolute;top:0px;left:332px;}
 a:hover {
-    color: #cb7fdd;}
+    color: #cb7fdd;transition:.3s;}
 .widget {position:absolute;background-color:rgba(0, 255, 255, 0);width: 300px;height: 90%;right: -20px;top:80px}
 .SDL {
 min-height:657px;
