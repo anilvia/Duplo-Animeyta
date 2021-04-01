@@ -17,9 +17,46 @@
    }
  a { color: #ffffff; }
 </style>
+<style>
+    body {
+      margin: 0;
+    }
+
+    .preloader {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+      background: #060102;
+      z-index: 1001;
+    }
+
+    .preloader__image {
+      position: relative;
+      top: 0px;
+      left: 0px;
+      width: 150px;
+      height: 150px;
+      background: url('https://media.discordapp.net/attachments/679296386944073729/809447399239319582/-1_2.gif?width=150&height=150') no-repeat 50% 50%;
+      /*расположение (url) изображения gif и др. параметры*/
+    }
+
+    .loaded_hiding .preloader {
+      transition: 0.3s opacity;
+      opacity: 0;
+    }
+
+    .loaded .preloader {
+      display: none;
+    }
+  </style>
 </head>
                         <body class="SDL">
-
+<div class="preloader">
+  <div class="preloader__image"></div>
+</div>                             
                                 <div class="ofc"><div class="ofc_head"></div></div>
                                 <div class="dup">Duplo Animeyta</div>
                             <div class="main"><div class="botheader"><div class="lmenu"><a></a></div>
@@ -38,6 +75,14 @@
 
 
 
-
+<script>
+    window.onload = function () {
+      document.body.classList.add('loaded_hiding');
+      window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+      }, 500);
+    }
+  </script>
                         </body>
 </html>

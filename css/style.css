@@ -27,7 +27,7 @@ margin: 0 auto;
   border-radius: 5px;
   background: rgba(157, 42, 199, 0);
   color: #fff;
-  padding: 8px 16px;}.batH:hover {appearance: none;border: 0;border-radius: 5px;background: rgba(157, 42, 199, 0.56);color: #fff;padding: 8px 16px;transition:all .2s linear;}
+  padding: 8px 16px;}.batH:hover {appearance: none;border: 0;border-radius: 5px;background: rgba(157, 42, 199, 0.56);color: #fff;padding: 8px 16px;;transition:all .2s linear;}
 .batD{position: absolute;top: 50%;left: 10px;font-size: 20px;appearance: none;
   border: 0;
   border-radius: 5px;
@@ -88,8 +88,8 @@ font-weight: 550;
 }
 
 
-.rmenu {position: absolute;right: 40px;bottom: 20px;font-family: Oswald;font-size: 16px}
-.ad {position: absolute;right: 40px;bottom: 59px;color: white;font-family: Oswald;font-size: 16px;}
+.rmenu {position: absolute;right: 20px;bottom: 20px;font-family: Oswald;font-size: 16px}
+.ad {position: absolute;right: 20px;bottom: 59px;color: white;font-family: Oswald;font-size: 16px;}
 .stats{
 position: absolute;
 justify-content: center;
@@ -117,14 +117,15 @@ font-size: 20px;
     min-width: 200px;
 
 } 
-.bottheader2 {
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    bottom: -16px;
-    padding: 10px;
-    background-color: rgba(56, 65, 62, 0.62);
-}
+.bottheader2
+{
+position: absolute;
+right: 0px;
+width: 100%;
+height: 100px;
+bottom: 0px;
+background-color: rgba(56, 65, 62, 0.62);
+padding: 10px}
 #main {
     display: flex;
     flex-flow: column;
