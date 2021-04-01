@@ -115,7 +115,8 @@ font-size: 20px;
     display: inline-block;
     margin: 5px;
     min-width: 200px;
-
+border: 4px;
+    border-radius: 35px;
 } 
 .bottheader2
 {

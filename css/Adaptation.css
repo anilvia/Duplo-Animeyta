@@ -95,7 +95,7 @@
     .LHeader {height: 94%;}
 }
 /* Samsung A50 */
-@media only screen and (max-width:480px) and (max-height:800px){.ad {
+@media only screen and (max-width:600px) and (max-height:1000px){.ad {
     position: absolute;
     right: 20px;
     bottom: 59px;
