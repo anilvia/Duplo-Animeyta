@@ -249,6 +249,14 @@
     font-size: 13px;
     font-weight: 100;
 }
+.widget {
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0);
+    width: 70%;
+    height: 90%;
+    right: -6px;
+    top: 252px;
+    display:none;
 }
 @media only screen and (max-width:360px) and (max-height:600px){ .batH{font-size: 20px}
     .batD{font-size: 20px}
@@ -270,3 +278,11 @@
     font-size: 13px;
     font-weight: 100;
 }
+.widget {
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0);
+    width: 70%;
+    height: 90%;
+    right: -6px;
+    top: 252px;
+    display:none;
