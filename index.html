@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script  src="https://www.googletagmanager.com/gtag/js?id=G-JD602HRG52"></script>
+
 <script src="assets/metrika/Yandex.js"></script>
 <script src="assets/metrika/Google.js"></script>
 <noscript><div><img src="https://mc.yandex.ru/watch/75085138" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
@@ -59,7 +60,15 @@
     }
   </style>
 </head>
-                        <body class="SDL">
+                        <body class="SDL"> <?php
+
+$jsonIn = file_get_contents('https://discordapp.com/api/guilds/356230556738125824/widget.json');
+$JSON = json_decode($jsonIn, true);
+
+$membersCount = count($JSON['members']);
+
+echo "Number of members: " . $membersCount;
+?>
 
 <div class="preloader">
   <div class="preloader__image"></div>
@@ -76,7 +85,7 @@
 <div class="widget"><iframe src="https://discord.com/widget?id=535144126887362561&theme=dark" width="250" height="80%" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
 
 
-<div class="bottheader2"><div class="lmenu"><a></a></div>
+<div class="bottheader2"><div class="lmenu"><a href="IV.html"> Новости Дупла</a></div>
                         <div class="rmenu"><a>Duplo Animeyta © 2021 | </a></div>
                         <div class=ad><a href="https://vk.com/id142551150" target="_blank">По вопросам рекламы и сотрудничества</a></div>
 </div>
