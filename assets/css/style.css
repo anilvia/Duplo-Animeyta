@@ -71,7 +71,7 @@ background-color: rgba(0, 0, 0, 0.51);
     width: 233px;
     height: 37px;
     right: 20px;
-    border-radius: 10px;
+    border-radius: 35px;
     top: 18px;
     border: 3px solid;
     font-size: 26px;
@@ -177,5 +177,5 @@ border-radius: 10px;
 .rmenu2 {position: absolute;top:0px;left:332px;}
 a:hover {
     color: #cb7fdd;transition:.3s;}
-.widget {position:absolute;background-color:rgba(0, 255, 255, 0);width: 300px;height: 90%;right: -20px;top:80px}
+.widget {position:absolute;background-color:rgba(0, 255, 255, 0);width: 300px;height: 90%;right: -20px;top:80px;}
 .lmenu {display:none;}
