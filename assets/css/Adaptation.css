@@ -49,6 +49,7 @@
 @media only screen and (max-width:375px) 
 
 {
+    .batD,.batR,.batA,.batH{font-family: fantasy;}
  .widget {
     position: absolute;
     background-color: rgba(0, 255, 255, 0);
