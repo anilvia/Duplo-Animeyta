@@ -61,7 +61,7 @@
     .batD{font-size: 60px}
     .batR{font-size: 60px}
     .batA{font-size: 60px}
-.dup{top: 75px;font-size: 64px;border-radius: 35px;border: 6px solid;width: 442px;height: 99px;}
+.dup{top: 75px;font-size: 64px;border-radius: 35px;border: 6px solid;width: 442px;height: 99px;right: 0px;}
 .bottheader2 {position: absolute;
     right: -20px;
     width: 102%;
@@ -138,7 +138,7 @@
     border: 4px solid;
     width: 147px;
     height: 33px;
-    right: 4px;
+    right: 0px;
 }.LHeader {
     position: absolute;
     width: 30%;
@@ -168,7 +168,7 @@
     font-family: Oswald;
     color: white;
     position: absolute;
-    background: url(https://media.discordapp.net/attachments/679296386944073729/820557389866074152/7731a08…_w200_.gif) no-repeat;
+    background: url(/assets/img/7731a0804e2ede7cb96a2483cca8ccd7_w200%20.gif) no-repeat;
     width: 233px;
     height: 44px;
     right: 30px;
@@ -185,6 +185,7 @@
     padding: 5px 5px!important;
     margin-right: 10px;
     text-align: center!important;
+    right: 0px;
 }.dup {
     top: 15px;
     font-size: 25px;
@@ -192,6 +193,7 @@
     border: 4px solid;
     width: 172px;
     height: 37px;
+    right: 0px;
 }.stats {
     position: absolute;
     justify-content: center;
@@ -210,8 +212,8 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    background: url(https://media.discordapp.net/attachments/688332382062903315/822004986362986506/unnamed.png) repeat;
-    background-size: 13%;
+    background: url(https://i.pinimg.com/originals/4e/30/c9/4e30c95dc885f880a2c2797fdee0e042.gif) repeat;
+    background-size: cover;
     left: 0px;
 }.bottheader2 {
     position: absolute;
@@ -257,7 +259,8 @@
     height: 90%;
     right: -6px;
     top: 252px;
-    display:none;
+    display:none;}
+.lmenu{display: none}
 }
 @media only screen and (max-width:360px) and (max-height:600px){ .batH{font-size: 20px}
     .batD{font-size: 20px}
@@ -266,6 +269,15 @@
     .stats {height: 14%;}
     .stats span{margin: 5px;}
     .green     {bottom: 30px;}
+    .lmenu{display: none}
+.ofc {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.pinimg.com/originals/4e/30/c9/4e30c95dc885f880a2c2797fdee0e042.gif) repeat;
+    background-size: cover;
+    left: 0px;
+}
 }
 .main {
     position: absolute;
@@ -286,4 +298,4 @@
     height: 90%;
     right: -6px;
     top: 252px;
-    display:none;
+    display:none;}
