@@ -1,51 +1,29 @@
-
-/* Samsung A50 */
-/*@media only screen and (max-width:1080px)
-{
-    .batH{font-size: 70px}
-    .batD{font-size: 60px}
-    .batR{font-size: 60px}
-    .batA{font-size: 60px}
-.dup{top: 45px;font-size: 64px;border-radius: 35px;border: 6px solid;width: 442px;height: 99px;}
-.bottheader2 {position: absolute;
-    right: -20px;
-    width: 102%;
-    height: 260px;
-    bottom: -306px;
-    background-color: rgba(56, 65, 62, 0.62);
-    padding: 0px;}
-.rmenu {font-size: 43px;right: 61px;bottom: 30px;}
-.ad {font-size: 38px;right: 20px;bottom: 149px;}
-.widget {
-    position: absolute;
-    background-color: rgba(0, 255, 255, 0);
-    width: 70%;
-    height: 90%;
-    right: -6px;
-    top: 252px;
-    display:none;
-}
-.ON {bottom: 10px;right: 10px;}
-.WS{bottom: 10px;right: 10px;}
-.VS{bottom: 10px;right: 10px;}
-.stats {
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    padding-top: 125px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgba(127, 255, 212, 0);
-    bottom: 150px;
-    right: 20%;
-    left: 20%;
-    height: 35%;
-    font-size: 62px;
+@media only screen and (max-width:430px){
+.dup {
     font-family: Oswald;
+    color: white;
+    position: absolute;
+    background: url(/assets/img/7731a08…_w200%20.gif) no-repeat;
+    width: 157px;
+    height: 29px;
+    right: 20px;
+    border-radius: 35px;
+    top: 20px;
+    border: 3px solid;
+    font-size: 19px;
+    margin: auto;
+    text-align: center;
+    background-size: 40%;
+    background-position: left;
+    font-weight: 550;
+    text-transform: uppercase;
+    border: 3px solid;
+    padding: 5px 5px!important;
+    margin-right: 10px;
+    text-align: center!important;
+    z-index: 10;
 }
-
-}*/
-/* IPhone X */
+}
 @media only screen and (max-width:375px) 
 
 {
@@ -62,7 +40,15 @@
     .batD{font-size: 60px}
     .batR{font-size: 60px}
     .batA{font-size: 60px}
-.dup{top: 75px;font-size: 64px;border-radius: 35px;border: 6px solid;width: 442px;height: 99px;right: 0px;}
+.dup {
+    top: 13px;
+    font-size: 20px;
+    border-radius: 35px;
+    border: 2px solid;
+    width: 153px;
+    height: 30px;
+    right: 0px;
+}
 .bottheader2 {position: absolute;
     right: -20px;
     width: 102%;
@@ -132,7 +118,7 @@
     height: 47%;
     font-size: 17px;
     font-family: Oswald;
-}.dup {
+}/*.dup {
     top: 10px;
     font-size: 22px;
     border-radius: 35px;
@@ -140,7 +126,7 @@
     width: 147px;
     height: 33px;
     right: 0px;
-}.LHeader {
+}*/.LHeader {
     position: absolute;
     width: 30%;
     height: 55%;
@@ -165,7 +151,7 @@
     font-size: 22px;
 }.batH {
     font-size: 22px;
-}.dup {
+}/*.dup {
     font-family: Oswald;
     color: white;
     position: absolute;
@@ -189,13 +175,13 @@
     right: 0px;
 }.dup {
     top: 15px;
-    font-size: 22px;
+    font-size: 24px;
     border-radius: 35px;
     border: 3px solid;
     width: 172px;
     height: 37px;
     right: 0px;
-}.stats {
+}*/.stats {
     position: absolute;
     justify-content: center;
     text-align: center;
@@ -204,7 +190,7 @@
     flex-wrap: wrap;
     background-color: rgba(127, 255, 212, 0);
     bottom: 199px;
-    right: 1%;
+    right: 0%;
     left: 0%;
     height: 16%;
     font-size: 17px;

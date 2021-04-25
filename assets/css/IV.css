@@ -1,0 +1,191 @@
+.news {
+    position: absolute;
+    top: 116px;
+    left: 157px;
+   /* width: 77%;*/
+    height: 88%;
+    z-index: 1;
+    font-family: 'Oswald';
+    font-size: 20px;
+right: 46px;
+}
+.hidden-menu {
+    display: block;
+    position: fixed;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 200px;
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/002/233/374/small/abstract-pattern-repeat-background-template-free-vector.jpg);
+    height: 100%;
+    top: 0;
+    right: -200px;
+    transition: left .2s;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    background-size: cover;
+    background-size: 100%;
+}
+
+.hidden-menu-ticker {
+  display: none;
+}
+
+.btn-menu {
+    color: #fff;
+    background-color: #7900b9;
+    padding: 7px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    transition: right .53s;
+    z-index: 3;
+    width: 25px;
+    height: 100%;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+.btn-menu span {
+  display: block;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0 0;
+  transition: all .1s linear .23s;
+  position: relative;
+}
+.btn-menu span.first {
+  margin-top: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+  right: 161px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  right: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 8px;
+  
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -8px;    
+}
+
+
+
+
+
+
+
+
+.topmenu {z-index: 50;}
+li {
+    z-index: 5;
+    padding: 7px;
+    margin-left: 34px;
+}
+.one {
+    font-family: 'Oswald';
+    font-size: 17px;
+    border-radius: 11px;
+    width: 240px;
+    position: absolute;
+    margin: 0 auto 30px;
+    padding: 10px;
+    border: 35px;
+    top: -25px;
+    left: -109%;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlg6OIkQSGCygVE2lx2s6qLXOw97UK8PvGIg&usqp=CAU);
+}
+.onebp{position: absolute;width: 100%;height: 100%;background-color: rgba(18, 16, 14, 0.6);top: 0px;left: 0px;color: aliceblue;}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+.submenu {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+.fa {
+  font-family: "FontAwesome";
+  color: inherit;
+  padding-left: 10px;
+}
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: -10px;
+    width: 93%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.one ul a {
+  color: #fff3f1;
+}
+.one .submenu {
+  display: none;
+  background: #b19891;
+}
+.one ul li:hover .submenu {
+    display: block;}
+.Log .subme {display: none;} .Log:hover .subme{display:block;transition: 1s ease-in-out;}
+.GF {position: absolute;
+top: 0px;left: 0px;}
+.Lapka {position: absolute;bottom: 0px;right: 40px;width:100px;height: 100px;  background: url(/assets/img/8e63ce96bb41dad32a1bee90d7ca7d47594c6214r1-250-250_00%20.gif)no-repeat;background-size: cover; }
+a {color: aliceblue;z-index: 1000;}
+.dup {
+    right: 00px!important;
+    top: -100px!important;
+}
+@media only screen and (max-width:380px){
+.news {
+    position: absolute;
+    top: 196px;
+    left: 8px;
+    /* width: 77%; */
+    height: 88%;
+    z-index: 1;
+    font-family: 'Oswald';
+    font-size: 20px;
+    right: 42px;
+}
+    .dup {
+
+top: -180px!important;
+}
+}
+@media only screen and (max-width:313px){
+.dup {
+display: none;
+}
+}
+@media only screen and (max-width:500px){
+.news {position: absolute;top: 214px;left: 13px;/* width: 77%; */height: 88%;z-index: 1;font-family: 'Oswald';font-size: 15px;right: 50px;}
+.dup{top: -200px!important;}
+}
+
