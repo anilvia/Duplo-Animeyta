@@ -184,4 +184,38 @@ a:hover {
     color: #cb7fdd;transition:.3s;}
 .widget {position:absolute;background-color:rgba(0, 255, 255, 0);width: 300px;height: 90%;right: -20px;top:80px}
 .lmenu {display:none;}
+.gsc-control-cse {
+    position: absolute;
+    font-family: arial, sans-serif;
+    height: 10%;
+    width: 80%;
+    top: 0px;
+    margin-left: 22px;
+    right: -16px;
+}
+.gsc-control-cse {
+    background-color: #fff0!important;
+    border: 1px solid #fff0!important;
+}
+.gsc-search-button-v2 {
+    font-size: 0;
+    padding: 2px 5px!important;
+    width: auto;
+    vertical-align: middle;
+    border: 1px solid #666;
+    border-radius: 2px;
+    border-color: #3079ed;
+    background-color: #4d90fe;
+    background-image: linear-gradient(top, #4d90fe, #4787ed);
+}
+.gsc-control-cse {
+    position: absolute!important;
+    font-family: arial, sans-serif;
+    height: 10%;
+    width: 80%!important;
+    top: 0px!important;
+    margin-left: 22px;
+    right: -16px;
+    border-radius: 10px;
+}
 
