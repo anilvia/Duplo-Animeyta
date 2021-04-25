@@ -21,7 +21,7 @@ right: 46px;
     height: 100%;
     top: 0;
     right: -200px;
-    transition: left .2s;
+    transition: .53s;
     z-index: 2;
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
