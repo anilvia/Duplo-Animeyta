@@ -218,4 +218,4 @@ a:hover {
     right: -16px;
     border-radius: 10px;
 }
-body, a:hover, textarea, input {cursor: url(../), default !important;}
+body, a:hover, textarea, input {cursor: url(../img/Rainbow.ani), default !important;}
