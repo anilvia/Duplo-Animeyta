@@ -4,7 +4,7 @@
 <head>
 <title>Анимейт Дискорд Сервер ©21</title>
 <link rel="stylesheet" href="../../assets/css/IV.css">
-<link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/688332382062903315/836238747322023946/Screenshot_3.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../../assets/img/Screenshot_3.ico" type="image/x-icon">
 <script  src="https://www.googletagmanager.com/gtag/js?id=G-JD602HRG52"></script>
 <script src="../../assets/metrika/Google.js"></script>
 <noscript><div><img src="https://mc.yandex.ru/watch/75085138" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
@@ -60,15 +60,14 @@
 <div class="preloader">
   <div class="preloader__image"></div>
 </div> 
-<div class="LHeader"><div class="batH"><a href="../../index.html" >Главная</a><div class="nov"><a href="../../IV.html">Новости</a></div></div>
+<div class="LHeader"><div class="batH"><a href="index.html" >Главная</a><div class="nov"><a href="/IV.html">Новости</a></div></div>
                      <div class="batD"><a href="https://discord.gg/bFH7eZh" target="_blank" >Наш Дискорд</a></div>
-                     <div class="batR"><a href="../../RULES.html" >Правила</a></div>
+                     <div class="batR"><a href="RULES.html" >Правила</a></div>
                      <div class="batA"><a href="https://www.youtube.com/channel/UCpuQaNK5h7RWjNjfwVuRjhA" target="_blank">Анимейт</a></div>
 </div>                            
 <div class="ofc"><div class="ofc_head"></div></div>
 <div class="Lapka"></div>
 
-  
                                                                     </body>
 
 </html>

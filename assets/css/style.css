@@ -1,3 +1,4 @@
+.gsc-control-cse{display: none;!important}
 #cont 
 {
 width: 800%;
@@ -72,7 +73,7 @@ background-color: rgba(0, 0, 0, 0.51);
     font-family: Oswald;
     color: white;
     position: absolute;
-    background: url(/assets/img/7731a0804e2ede7cb96a2483cca8ccd7_w200%20.gif) no-repeat;
+    background: url(../img/7731a0804e2ede7cb96a2483cca8ccd7_w200%20.gif) no-repeat;
     width: 233px;
     height: 37px;
     right: 20px;

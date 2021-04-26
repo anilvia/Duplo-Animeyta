@@ -8,6 +8,7 @@
     font-family: 'Oswald';
     font-size: 20px;
 right: 46px;
+color: white;
 }
 .hidden-menu {
     display: block;
@@ -157,7 +158,7 @@ ul {
 .Log .subme {display: none;} .Log:hover .subme{display:block;transition: 1s ease-in-out;}
 .GF {position: absolute;
 top: 0px;left: 0px;}
-.Lapka {position: absolute;bottom: 0px;right: 40px;width:100px;height: 100px;  background: url(/assets/img/8e63ce96bb41dad32a1bee90d7ca7d47594c6214r1-250-250_00%20.gif)no-repeat;background-size: cover; }
+.Lapka {position: absolute;bottom: 0px;right: 40px;width:100px;height: 100px;  background: url(../img/8e63ce96bb41dad32a1bee90d7ca7d47594c6214r1-250-250_00%20.gif)no-repeat;background-size: cover; }
 a {color: aliceblue;z-index: 1000;}
 .dup {
     right: 00px!important;
