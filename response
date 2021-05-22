@@ -1,0 +1,25 @@
+.green {
+    position: relative;
+    height: 11px;
+    width: 11px;
+    background-color: #12aa47;
+    bottom: 68px;
+    left: 51px;
+    border-radius: 10px;
+}
+.stats {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    padding-top: 125px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(127, 255, 212, 0);
+    bottom: 113px;
+    right: 20%;
+    left: 20%;
+    height: 16%;
+    font-size: 20px;
+    font-family: Oswald;
+    flex-direction: row;
+}
